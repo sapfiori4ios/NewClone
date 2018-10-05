@@ -12,7 +12,6 @@
 		55D23D0121676CC900A3D2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D23CFF21676CC900A3D2F9 /* Main.storyboard */; };
 		55D23D0321676CCA00A3D2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D23D0221676CCA00A3D2F9 /* Assets.xcassets */; };
 		55D23D0621676CCA00A3D2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D23D0421676CCA00A3D2F9 /* LaunchScreen.storyboard */; };
-		55D23D0F21676CF600A3D2F9 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D23D0E21676CF600A3D2F9 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		55D23D0221676CCA00A3D2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D23D0521676CCA00A3D2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D23D0721676CCA00A3D2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55D23D0E21676CF600A3D2F9 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +38,6 @@
 		55D23CEF21676CC900A3D2F9 = {
 			isa = PBXGroup;
 			children = (
-				55D23D0D21676CE400A3D2F9 /* FrameWorks */,
 				55D23CFA21676CC900A3D2F9 /* NewClone */,
 				55D23CF921676CC900A3D2F9 /* Products */,
 			);
@@ -65,14 +62,6 @@
 				55D23D0721676CCA00A3D2F9 /* Info.plist */,
 			);
 			path = NewClone;
-			sourceTree = "<group>";
-		};
-		55D23D0D21676CE400A3D2F9 /* FrameWorks */ = {
-			isa = PBXGroup;
-			children = (
-				55D23D0E21676CF600A3D2F9 /* Test.swift */,
-			);
-			path = FrameWorks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +137,6 @@
 			files = (
 				55D23CFE21676CC900A3D2F9 /* ViewController.swift in Sources */,
 				55D23CFC21676CC900A3D2F9 /* AppDelegate.swift in Sources */,
-				55D23D0F21676CF600A3D2F9 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
